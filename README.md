@@ -39,21 +39,21 @@ Vehicle Image → Plate Detection → Character Segmentation → Character Class
 - **Matplotlib** – For visualizations
 
 ## Project Structure
-license-plate-recognition/
-├── images/ # Input vehicle images
-├── segmented_characters/ # Extracted character segments
-├── model/ # Trained ML model for character recognition
-├── plate_detector.py # Detect license plate from image
-├── character_segmenter.py # Segment characters from plate
-├── recognizer.py # Character recognition module
-├── train_model.py # Script to train ML model on character data
-├── main.py # Full pipeline: detection → recognition
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+license-plate-recognition/  
+├── images/ # Input vehicle images  
+├── segmented_characters/ # Extracted character segments  
+├── model/ # Trained ML model for character recognition  
+├── plate_detector.py # Detect license plate from image  
+├── character_segmenter.py # Segment characters from plate  
+├── recognizer.py # Character recognition module  
+├── train_model.py # Script to train ML model on character data  
+├── main.py # Full pipeline: detection → recognition  
+├── requirements.txt # Python dependencies  
+└── README.md # Project documentation  
 
 ## Limitations
-The model may not generalize well to:
-1.Low-quality or blurry images.
-2.License plates from different countries or formats.
-3.Obstructed or angled plates.
-4.This system does not use deep learning (like CNNs or YOLO), so accuracy may be limited on complex real-world datasets.
+The model may not generalize well to:  
+1.Low-quality or blurry images.  
+2.License plates from different countries or formats.  
+3.Obstructed or angled plates.  
+4.This system does not use deep learning (like CNNs or YOLO), so accuracy may be limited on complex real-world datasets.  
